@@ -12,7 +12,7 @@ function Header() {
             <div className="navbar">
                 <div className="navbar-spacer"></div>
                 <div className="navbar-logo">
-                    <h1>JG</h1>
+                    <h1>Javier Galera</h1>
                 </div>
                 <div className="navbar-spacer"></div>
             </div>

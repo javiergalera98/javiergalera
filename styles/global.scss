@@ -12,9 +12,9 @@
 
 // Header Styles
 .header {
-    @apply fixed top-0 left-0 w-screen md:relative z-40 md:mb-2 bg-white-light dark:bg-black-dark bg-opacity-80 md:bg-opacity-100 dark:bg-opacity-80 md:dark:bg-opacity-100 backdrop-filter backdrop-blur;
+    @apply fixed top-0 left-0 w-screen md:relative z-40 md:mb-4 md:mt-4 bg-white-light dark:bg-black-dark bg-opacity-80 md:bg-opacity-100 dark:bg-opacity-80 md:dark:bg-opacity-100 backdrop-filter backdrop-blur;
 }
-
+ 
 .navbar {
     @apply flex flex-wrap items-center px-4 md:px-6 py-2 md:pt-2 md:pb-0;
 }
@@ -27,6 +27,40 @@
     @apply flex-grow items-center text-center;
 
     h1 {
-        @apply font-sans text-sm md:text-base sm:subpixel-antialiased md:antialiased font-black text-gray-lightest dark:text-gray-darkest;
+        @apply font-sans text-sm md:text-base sm:subpixel-antialiased md:antialiased font-medium text-gray-lightest dark:text-gray-darkest;
+    }
+}
+
+// Footer Styles
+.footer {
+    @apply block w-screen bg-white-light dark:bg-black-dark pt-16 pb-12 sm:pt-20 md:pt-24 xl:pt-32 sm:pb-20;
+}
+
+.footer-legal {
+    @apply text-center mt-4;
+
+    p {
+        @apply text-sm font-light text-gray-lightest dark:text-gray-darkest;
+    }
+}
+
+// Welcome Banner
+.welcome-banner {
+    @apply py-40 px-4 md:py-40 md:px-10 text-center;
+
+    h1 {
+        @apply text-4xl md:text-9xl font-sans font-black mb-4 text-black-light dark:text-white-dark;
+    }
+
+    h2 {
+        @apply text-5xl md:text-7xl font-sans mb-10;
+    }
+
+    p {
+        @apply text-xl md:text-5xl font-mono text-black-light dark:text-white-dark;
+
+        span {
+            @apply font-black;
+        }
     }
 }
