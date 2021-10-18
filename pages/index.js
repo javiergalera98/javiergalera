@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 import useTranslation from "next-translate/useTranslation";
 
 import Header from "../components/global/header";
@@ -9,11 +11,11 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <div>
+      <div className="content">
         <div className="welcome-banner">
-          <h2>👋🏻</h2>
-          <h1>Javier Galera</h1>
-          <p>I'm a <span>Swift</span> and <span>Web</span> Developer</p>
+          <h1>{t("welcomeTitle")}</h1>
+          <h2>{t("welcomeSubtitle")}</h2>
+          <p>{t("welcomeDescription1")}<br/>{t("welcomeDescription2")} <a href="https://www.byspace.es">Space.</a></p>
         </div>
       </div>
       <Footer />
