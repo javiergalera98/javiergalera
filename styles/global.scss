@@ -3,3 +3,30 @@
 @import "tailwindcss/components"; 
 @import "tailwindcss/utilities";
 
+// Global
+@layer base {
+    html {
+        @apply p-0 m-0 bg-white-light dark:bg-black-dark;
+    }
+}
+
+// Header Styles
+.header {
+    @apply fixed top-0 left-0 w-screen md:relative z-40 md:mb-2 bg-white-light dark:bg-black-dark bg-opacity-80 md:bg-opacity-100 dark:bg-opacity-80 md:dark:bg-opacity-100 backdrop-filter backdrop-blur;
+}
+
+.navbar {
+    @apply flex flex-wrap items-center px-4 md:px-6 py-2 md:pt-2 md:pb-0;
+}
+
+.navbar-spacer {
+    @apply flex-none;
+}
+
+.navbar-logo {
+    @apply flex-grow items-center text-center;
+
+    h1 {
+        @apply font-sans text-sm md:text-base sm:subpixel-antialiased md:antialiased font-black text-gray-lightest dark:text-gray-darkest;
+    }
+}
