@@ -53,19 +53,24 @@
 .welcome-banner {
     @apply py-40 px-4 md:py-40 md:px-10 md:max-w-4xl text-center;
 
-    h1 {
-        @apply text-xl md:text-2xl font-sans text-black-light dark:text-white-dark mb-10;
+    h2 {
+        @apply text-3xl md:text-5xl font-sans font-bold text-black-light dark:text-white-dark mb-10;
     }
 
-    h2 {
-        @apply text-5xl md:text-8xl font-sans font-black mb-4 text-black-light dark:text-white-dark mb-10;
+    h1 {
+        @apply text-6xl md:text-9xl font-sans font-black mb-4 bg-clip-text bg-gradient-to-r from-blue-light to-blue-dark mb-10;
+        color: rgba(0,0,0,0.0);
     }
 
     p {
-        @apply text-xl md:text-xl font-mono text-black-light dark:text-white-dark mb-10;
+        @apply text-xl md:text-xl font-mono text-black-light dark:text-white-dark mb-24;
 
         span {
             @apply font-black;
         }
     }
+}
+
+.color-button {
+    @apply px-10 py-4 bg-gradient-to-r from-blue-light to-blue-dark text-white dark:text-black rounded-md font-medium uppercase;
 }

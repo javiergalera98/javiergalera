@@ -13,9 +13,10 @@ export default function Home() {
       <Header />
       <div className="content">
         <div className="welcome-banner">
-          <h1>{t("welcomeTitle")}</h1>
-          <h2>{t("welcomeSubtitle")}</h2>
-          <p>{t("welcomeDescription1")}<br/>{t("welcomeDescription2")} <a href="https://www.byspace.es">Space.</a></p>
+          <h2>{t("welcomeTitle")}</h2>
+          <h1>{t("welcomeSubtitle")}</h1>
+          <p>{t("welcomeDescription1")}<br/>{t("welcomeDescription2")} <a className="font-bold" href="https://www.byspace.es">Space.</a></p>
+          <Link href="/contact"><a className="color-button">{t("welcomeButton")}</a></Link>
         </div>
       </div>
       <Footer />
