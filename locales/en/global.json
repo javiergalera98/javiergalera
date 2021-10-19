@@ -1,7 +1,11 @@
 {
+    "seoTitle": "Javier Galera",
+    "seoDescription": "Welcome to my portfolio page! I'm a Swift and Web Developer.",
+
+
     "welcomeTitle": "Hi 👋🏻",
     "welcomeSubtitle": "I'm Javier",
-    "welcomeDescription1": "I'm a Swift and Web Developer in Spain.",
+    "welcomeDescription1": "I'm a Swift and Web Developer 💻 in Spain.",
     "welcomeDescription2": "For me, every little detail and privacy are the most important things, that is why I am creating my own company,",
     "welcomeButton": "Let's get in touch"
 }
