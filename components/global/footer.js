@@ -101,7 +101,7 @@ function Footer() {
             </a>
           ))}
         </div>
-        <p className="footer-legal">&copy; {t("footerCopyright")}.</p>
+        <p className="footer-legal">&copy; {t("footerCopyright")}</p>
       </div>
     </footer>
   );
