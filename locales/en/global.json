@@ -17,5 +17,10 @@
     "introStat4Label": "Awards",
     "introStat4Value": "2",
 
-    "introSpaceLink": "Learn more about Space"
+    "introSpaceLink": "Learn more about Space",
+
+    "contactTitle": "Let's get in touch!",
+    "contactSubtitle": "I'm open for job offers and collaborations, so if you have something in mind, email me. Or if you just want to say hi, feel free to contact me on my social media.",
+    "contactButton1": "Email me",
+    "contactButton2": "See my CV"
 }

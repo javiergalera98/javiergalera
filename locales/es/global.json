@@ -17,5 +17,10 @@
     "introStat4Label": "Premios",
     "introStat4Value": "2",
 
-    "introSpaceLink": "Aprende más sobre Space"
+    "introSpaceLink": "Aprende más sobre Space",
+
+    "contactTitle": "¡Pongámonos en contacto!",
+    "contactSubtitle": "Estoy abierto a ofertas de trabajo y colaboraciones, así que si tienes algo en mente, envíame un mail. O si solo quieres saludar, no dudes en contactarme en mis redes sociales.",
+    "contactButton1": "Envía un mail",
+    "contactButton2": "Mira mi CV"
 }

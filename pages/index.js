@@ -7,6 +7,7 @@ import { NextSeo } from "next-seo";
 import Header from "../components/global/header";
 import Footer from "../components/global/footer";
 import Intro from "../components/home/intro";
+import Contact from "../components/home/contact";
 
 export default function Home() {
   const { t } = useTranslation("global");
@@ -34,6 +35,7 @@ export default function Home() {
             </div>
           </div>
           <Intro />
+          <Contact />
         </div>
       </div>
       <Footer />
