@@ -3,6 +3,8 @@
 @import "tailwindcss/components"; 
 @import "tailwindcss/utilities";
 
+@import "home.scss";
+
 // Global
 @layer base {
     html {
@@ -33,48 +35,22 @@
 
 // Footer Styles
 .footer {
-    @apply block w-screen bg-white-light dark:bg-black-dark pt-16 pb-12 sm:pt-20 md:pt-24 xl:pt-32 sm:pb-20;
+    @apply max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8;
+}
+
+.footer-links {
+    @apply mt-8 flex justify-center space-x-6;
+
+    a {
+        @apply text-gray-lightest hover:text-gray-light dark:text-gray-dark dark:hover:text-gray-darkest;
+    }
 }
 
 .footer-legal {
-    @apply text-center mt-4;
-
-    p {
-        @apply text-sm font-light text-gray-lightest dark:text-gray-darkest;
-    }
+    @apply mt-8 text-center text-base text-gray-lightest dark:text-gray-dark;
 }
 
 // Main Content
 .content {
     @apply flex justify-center;
-}
-
-// Welcome Banner
-.welcome-banner {
-    @apply py-40 px-4 md:py-40 md:px-10 md:max-w-4xl text-center;
-
-    img {
-        @apply rounded-full;
-    }
-
-    h2 {
-        @apply text-4xl md:text-5xl font-sans font-bold text-black-light dark:text-white-dark mb-6 mt-4 md:mb-10;
-    }
-
-    h1 {
-        @apply text-6xl md:text-9xl font-sans font-black bg-clip-text bg-gradient-to-r from-blue-light to-blue-dark mb-10;
-        color: rgba(0,0,0,0.0);
-    }
-
-    p {
-        @apply text-base md:text-xl font-sans font-light tracking-wider text-black-light dark:text-white-dark mb-24;
-
-        span {
-            @apply font-black;
-        }
-    }
-}
-
-.color-button {
-    @apply px-10 py-4 bg-gradient-to-r from-blue-light to-blue-dark text-white dark:text-black rounded-full text-base md:text-xl font-semibold uppercase hover:shadow-lg transition duration-500;
 }

@@ -1,11 +1,21 @@
 {
     "seoTitle": "Javier Galera",
-    "seoDescription": "Welcome to my portfolio page! I'm a Swift and Web Developer.",
+    "seoDescription": "Welcome to my portfolio page! I'm a Swift and Web Developer. I'm forging stars at Space.",
 
+    "footerCopyright": "2022 Javier Galera. All rights reserved.",
 
-    "welcomeTitle": "Hi 👋🏻",
-    "welcomeSubtitle": "I'm Javier",
-    "welcomeDescription1": "I'm a Swift and Web Developer 💻 in Spain.",
-    "welcomeDescription2": "For me, every little detail and privacy are the most important things, that is why I am creating my own company,",
-    "welcomeButton": "Let's get in touch"
+    "introTitle": "I'm Javier.",
+    "introDescription1": "I'm a Swift and Web Developer from Pamplona, Spain.",
+    "introDescription2": "Since I was little I wanted make people's lives better creating the best apps and services possible, that's why I try to improve and learn every day, and I won't stop until I reach my goal. I started as an Android Developer in 2018, but I'm now a Swift Developer, focusing on iOS and Web development.",
+    "introDescription3": "For me, privacy, quality and creating unique experiences better are the most important things when creating an App. So I forge stars at Space, my startup.",
+    "introStat1Label": "Projects",
+    "introStat1Value": "20+",
+    "introStat2Label": "Years",
+    "introStat2Value": "3",
+    "introStat3Label": "Lines of code",
+    "introStat3Value": "100K",
+    "introStat4Label": "Awards",
+    "introStat4Value": "2",
+
+    "introSpaceLink": "Learn more about Space"
 }

@@ -24,8 +24,17 @@ module.exports = {
         DEFAULT: "#35A6FF",
         light: "#60B9FF",
       },
+      transparent: {
+        DEFAULT: "transparent",
+      }
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'space-video': "url('/videos/space.mp4')",
+        'beach-video': "url('/videos/beach.mp4')",
+        'earth-video': "url('/videos/earth.mp4')",
+      }
+    },
   },
   variants: {
     extend: {},
