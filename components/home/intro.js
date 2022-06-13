@@ -11,7 +11,7 @@ export default function Intro() {
             {/* Testimonial card*/}
             <div>
               <img
-                src="/images/avatar.webp"
+                src="/images/profile-picture.webp"
                 alt=""
               />
             </div>
